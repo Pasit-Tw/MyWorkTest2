@@ -3,7 +3,7 @@
  นาย พสิษฐ์ ทิวารัตนอังกูร /-/
 เป็นผลงานที่เคยทำไว้ครับ /-/
 สามาร Login ได้นะครับ โดย /login ใน url นะครับ โดยใช้อีเมตามนี้เลย /-/
-Email Login@test.com /-/
+Email Login@tes.com /-/
 Pass log1234 นะครับ
 
 ## Build Setup
