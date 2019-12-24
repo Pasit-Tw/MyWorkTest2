@@ -152,6 +152,7 @@
       addMember() {
         db.collection(this.perCheck).doc(this.PersonID).set({
             PersonID: this.PersonID,
+            Name : this.Name,
             Tell: this.tell,
             startDate: this.due,
             endDate: this.due2,
