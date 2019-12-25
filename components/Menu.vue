@@ -1,8 +1,8 @@
 <template>
   
 <v-toolbar dense fixed class="main-header"
-  color="rgb(0, 202, 202)"
-  style="height:5rem;"
+  color="pink"
+  style="height:5rem"
   >
     <v-toolbar-items class="main-nav">
       <v-toolbar-title class="nav-links" >
@@ -33,16 +33,14 @@
 {
     color: rgb(255, 255, 255)
 }
-  .main-header {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgb(0, 202, 202);
-    height: 2.5rem;
-  }
-
   .main-nav {
     height: 100%;
+  }
+  .main-header{
+    position: fixed;
+    overflow: hidden;
+    z-index: 300;
+    
   }
 
   .nav-links {
